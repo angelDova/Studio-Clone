@@ -180,7 +180,7 @@ const RootLayoutInner = ({ children }) => {
                     <h2 className="font-display text-base font-semibold text-white">
                       Follow Me
                     </h2>
-                    <SocialMedia />
+                    <SocialMedia className="mt-6" invert />
                   </div>
                 </div>
               </Container>
@@ -198,3 +198,5 @@ const RootLayout = ({ children }) => {
 };
 
 export default RootLayout;
+
+//52:30
