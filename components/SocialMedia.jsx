@@ -56,6 +56,7 @@ const SocialMedia = ({ className, invert = false }) => {
               "transition",
               invert ? "hover:text-neutral-200" : "hover:text-neutral-700"
             )}
+            target="_blank"
           >
             <item.icon className="h-6 w-6 fill-current" />
           </Link>

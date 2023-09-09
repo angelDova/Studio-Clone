@@ -188,6 +188,18 @@ const RootLayoutInner = ({ children }) => {
           </motion.div>
         </motion.div>
       </header>
+      <motion.div
+        layout
+        style={{ borderTopLeftRadius: 40, borderTopRightRadius: 40 }}
+        className="relative flex flex-auto overflow-hidden bg-white pt-14"
+      >
+        <motion.div
+          layout
+          className="relative idsolate flex w-full flex-col pt-9"
+        >
+          <main>{children}</main>
+        </motion.div>
+      </motion.div>
     </MotionConfig>
   );
 };
