@@ -195,7 +195,7 @@ const RootLayoutInner = ({ children }) => {
       >
         <motion.div
           layout
-          className="relative idsolate flex w-full flex-col pt-9"
+          className="relative isolate flex w-full flex-col pt-9"
         >
           <main>{children}</main>
         </motion.div>
