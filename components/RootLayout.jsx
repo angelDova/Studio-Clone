@@ -12,6 +12,7 @@ import Button from "./Button";
 import clsx from "clsx";
 import Locations from "./Locations";
 import SocialMedia from "./SocialMedia";
+import Footer from "./Footer";
 
 const Header = ({
   panelId,
@@ -197,7 +198,9 @@ const RootLayoutInner = ({ children }) => {
           layout
           className="relative isolate flex w-full flex-col pt-9"
         >
-          <main>{children}</main>
+          <main className="w-full flex-auto ">{children}</main>
+          {/* Footer */}
+          <Footer />
         </motion.div>
       </motion.div>
     </MotionConfig>
@@ -210,5 +213,3 @@ const RootLayout = ({ children }) => {
 };
 
 export default RootLayout;
-
-//52:30
