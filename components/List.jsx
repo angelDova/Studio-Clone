@@ -6,10 +6,7 @@ import Border from "./Border";
 const List = ({ className, children }) => {
   return (
     <FadeInStagger>
-      <ul
-        role="list"
-        className={clsx("text-base tewxt-neutral-600", className)}
-      >
+      <ul role="list" className={clsx("text-base text-neutral-600", className)}>
         {children}
       </ul>
     </FadeInStagger>
