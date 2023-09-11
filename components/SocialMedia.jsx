@@ -9,7 +9,7 @@ import {
   BsLinkedin,
 } from "react-icons/bs";
 
-const SocialMediaProfiles = [
+export const SocialMediaProfiles = [
   {
     title: "Instagram",
     href: "https://www.instagram.com/arianarene/",

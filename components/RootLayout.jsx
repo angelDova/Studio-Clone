@@ -86,7 +86,7 @@ const Navigation = () => {
   return (
     <nav className="mt-px font-display text-5xl font-medium tracking-tight text-white">
       <NavigationRow>
-        <NavigationItem href="/work">Our Work</NavigationItem>
+        <NavigationItem href="/portfolio">Portfolio</NavigationItem>
         <NavigationItem href="/about">About Us</NavigationItem>
       </NavigationRow>
       <NavigationRow>
@@ -198,7 +198,7 @@ const RootLayoutInner = ({ children }) => {
           layout
           className="relative isolate flex w-full flex-col pt-9"
         >
-          <main className="w-full flex-auto ">{children}</main>
+          <main className="w-full flex-auto">{children}</main>
           {/* Footer */}
           <Footer />
         </motion.div>
