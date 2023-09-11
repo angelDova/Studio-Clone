@@ -1,6 +1,9 @@
 import Clients from "@/components/Clients";
+import ContactSection from "@/components/ContactSection";
 import Container from "@/components/Container";
 import FadeIn from "@/components/FadeIn";
+import Services from "@/components/Services";
+import StackedCardTestimonials from "@/components/Testimonial";
 import Image from "next/image";
 
 export default function Home() {
@@ -22,6 +25,9 @@ export default function Home() {
         </FadeIn>
       </Container>
       <Clients />
+      <StackedCardTestimonials />
+      <Services />
+      <ContactSection />
     </main>
   );
 }

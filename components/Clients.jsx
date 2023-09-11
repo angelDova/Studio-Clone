@@ -25,7 +25,7 @@ import {
 } from "react-icons/si";
 import { IconType } from "react-icons";
 import Container from "./Container";
-import FadeIn from "./FadeIn";
+import FadeIn, { FadeInStagger } from "./FadeIn";
 
 const Clients = () => {
   return (
@@ -37,6 +37,7 @@ const Clients = () => {
           </h2>
           <div className="h-px flex-auto bg-neutral-800" />
         </FadeIn>
+
         <div className="flex overflow-hidden">
           <TranslateWrapper>
             <LogoItemsTop />
