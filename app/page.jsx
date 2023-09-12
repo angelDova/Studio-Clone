@@ -11,7 +11,7 @@ export default function Home() {
     <main className="text-black">
       <Container className="mt-24 sm:mt-32">
         <FadeIn className="max-w-3xl">
-          <span className="block mb-4 text-2xl text-blue-600 font-medium ">
+          <span className="block mb-4 text-2xl text-indigo-600 font-medium ">
             Ariana Cordova
           </span>
           <h1 className="font-display text-5xl font-medium tracking-tight text-neutral-950 [text-wrap:balance] sm:text-7xl">
