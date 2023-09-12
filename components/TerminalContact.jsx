@@ -4,32 +4,40 @@ import { motion } from "framer-motion";
 import { FiCheckCircle } from "react-icons/fi";
 import { Fragment, useEffect, useRef, useState } from "react";
 import AnaImg2 from "@/images/AnaImg2.jpg";
+import FadeIn from "./FadeIn";
 
 const TerminalContact = () => {
   const containerRef = useRef(null);
   const inputRef = useRef(null);
 
   return (
-    <section
-      style={{
-        backgroundImage:
-          "url(https://images.unsplash.com/photo-1482686115713-0fbcaced6e28?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1734&q=80)",
-        backgroundSize: "cover",
-        backgroundPosition: "center",
-      }}
-      className="px-4 py-12 bg-violet-600"
-    >
-      <div
-        ref={containerRef}
-        onClick={() => {
-          inputRef.current?.focus();
-        }}
-        className="h-96 bg-slate-950/70 backdrop-blur rounded-lg w-full max-w-3xl mx-auto overflow-y-scroll shadow-xl cursor-text font-mono"
-      >
-        <TerminalHeader />
-        <TerminalBody inputRef={inputRef} containerRef={containerRef} />
+    <FadeIn>
+      <div className="flex flex-col gap-y-6">
+        <h2 className="font-display text-base font-semibold text-neutral-950">
+          Work Inquiries
+        </h2>
+        <section
+          style={{
+            backgroundImage:
+              "url(https://images.unsplash.com/photo-1482686115713-0fbcaced6e28?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1734&q=80)",
+            backgroundSize: "cover",
+            backgroundPosition: "center",
+          }}
+          className="px-4 py-12 bg-violet-600"
+        >
+          <div
+            ref={containerRef}
+            onClick={() => {
+              inputRef.current?.focus();
+            }}
+            className="h-96 bg-slate-950/70 backdrop-blur rounded-lg w-full max-w-3xl mx-auto overflow-y-scroll shadow-xl cursor-text font-mono"
+          >
+            <TerminalHeader />
+            <TerminalBody inputRef={inputRef} containerRef={containerRef} />
+          </div>
+        </section>
       </div>
-    </section>
+    </FadeIn>
   );
 };
 
@@ -40,7 +48,7 @@ const TerminalHeader = () => {
       <div className="w-3 h-3 rounded-full bg-yellow-500" />
       <div className="w-3 h-3 rounded-full bg-green-500" />
       <span className="text-sm text-slate-200 font-semibold absolute left-[50%] -translate-x-[50%]">
-        Angelfcb01@yahoo.com
+        Dovastudios@gmail.com
       </span>
     </div>
   );

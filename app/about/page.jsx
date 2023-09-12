@@ -2,13 +2,13 @@ import ContactSection from "@/components/ContactSection";
 import Container from "@/components/Container";
 import Cultures from "@/components/Cultures";
 import PageIntro from "@/components/PageIntro";
-// import { StatList, StatListItem } from "@/components/StatList";
+import { StatList, StatListItem } from "@/components/StatList";
 import React from "react";
 
 const AboutPage = () => {
   return (
     <>
-      <PageIntro eyebrow="About us" title="Our strength is collaboration">
+      <PageIntro eyebrow="About" title="Our strength is collaboration">
         <p>
           We believe that our strength lies in our collaborative approach, which
           puts our clients at the center of everything we do.
@@ -29,11 +29,11 @@ const AboutPage = () => {
         </div>
       </PageIntro>
       <Container className="mt-16">
-        {/* <StatList>
-          <StatListItem value="35" label="Underpaid employees" />
-          <StatListItem value="52" label="Placated clients" />
-          <StatListItem value="$25M" label="Invoices billed" />
-        </StatList> */}
+        <StatList>
+          <StatListItem value="35+" label="Clients" />
+          <StatListItem value="75+" label="Projects" />
+          <StatListItem value="100+" label="Photos Taken" />
+        </StatList>
       </Container>
       <Cultures />
       <ContactSection />

@@ -27,13 +27,6 @@ const Locations = ({ invert = false, ...props }) => {
           La Mirada, CA 90638
         </Location>
       </li>
-      <li>
-        <Location name="United States" invert={invert}>
-          13925 Bora Dr.
-          <br />
-          La Mirada, CA 90638
-        </Location>
-      </li>
     </ul>
   );
 };
