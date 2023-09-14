@@ -4,7 +4,7 @@ import "./globals.css";
 export const metadata = {
   title: {
     template: "Studio Clone",
-    default: "Studio Website - A site to make you famous",
+    default: "DovaStudios - A site by Ariana Cordova",
   },
 };
 
