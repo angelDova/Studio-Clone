@@ -13,6 +13,8 @@ import { BsTiktok } from "react-icons/bs";
 import { FaPinterestP } from "react-icons/fa";
 import { Menu } from "@headlessui/react";
 import { Gallery } from "./gallery/gallery";
+import ContactSection from "./ContactSection";
+import Container from "./Container";
 // import GlassNav from "../components/GlassNav";
 
 const scrollToTop = () => {
@@ -74,15 +76,17 @@ const PortfolioGalleryPage = () => {
   return (
     <div
       id="portfolio"
-      className="h-full float-left w-full relative sm:px-4 overflow-auto py-12"
+      className="h-full w-full relative sm:px-4 overflow-auto py-12"
     >
-      <div className="fixed left-0 top-0 w-full h-full z-10 from-stone-900 bg-gradient-to-t"></div>
+      <div className="left-0 top-0 w-full h-full"></div>
+      {/* <div className="fixed left-0 top-0 w-full h-full z-10 from-stone-900 bg-gradient-to-t"></div> */}
 
       {/* <header className="fixed top-0 w-full z-30 flex justify-between items-center h-[90px] px-10 gap-16">
         <GlassNav />
         <LiquidSideNav />
       </header> */}
       <Gallery />
+
       {/* <footer className="relative h-[90px] text-2xl font-medium flex justify-center items-center z-20">
         <FloatingBottomNav />
       </footer> */}

@@ -90,11 +90,11 @@ const breakpointColumnsObj = {
 };
 
 export function Gallery() {
-  const lightboxRef = (useRef < LightGallery) | (null > null);
+  // const lightboxRef = (useRef < LightGallery) | (null > null);
+  const lightboxRef = useRef(null);
   return (
-    <main className="relative pt-[110px] z-20">
+    <main className="relative pt-[20px] z-20">
       <div className="flex flex-col items-center h-full uppercase text-6xl text-center font-medium text-indigo-600">
-        Studio Portfolio
         <Tab.Group>
           <Tab.List className="flex items-center gap-12">
             {tabs.map((tab) => (

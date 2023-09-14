@@ -1,3 +1,4 @@
+import CardCarousel from "@/components/CardCarousel";
 import Clients from "@/components/Clients";
 import ContactSection from "@/components/ContactSection";
 import Container from "@/components/Container";
@@ -24,7 +25,8 @@ export default function Home() {
           </p>
         </FadeIn>
       </Container>
-      <Clients />
+      <CardCarousel />
+      {/* <Clients /> */}
       <StackedCardTestimonials />
       <Services />
       <ContactSection />

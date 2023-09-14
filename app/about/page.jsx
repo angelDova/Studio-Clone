@@ -3,29 +3,41 @@ import Container from "@/components/Container";
 import Cultures from "@/components/Cultures";
 import PageIntro from "@/components/PageIntro";
 import { StatList, StatListItem } from "@/components/StatList";
+import Image from "next/image";
 import React from "react";
+import AboutImg from "@/public/images/AboutImg.jpg";
 
 const AboutPage = () => {
   return (
     <>
-      <PageIntro eyebrow="About" title="Our strength is collaboration">
+      <PageIntro eyebrow="About" title="Strength in collaboration">
         <p>
-          We believe that our strength lies in our collaborative approach, which
-          puts our clients at the center of everything we do.
+          Ariana Cordova is an LA-based creative that specializes in fashion
+          styling and photography. She is pursuing her Bachelor of Arts in
+          Apparel Merchandising and Design at California State Polytechnic
+          University, Pomona. Her projects reflect personal artistic themes
+          through culture, femininity, and identity. Her goal is to connect and
+          communicate through fashion.
         </p>
-        <div className="mt-10 max-w-2xl space-y-6 text-base">
-          <p>
-            Studio was started by three friends who noticed that developer
-            studios were charging clients double what an in-house team would
-            cost. Since the beginning, we have been committed to doing things
-            differently by charging triple instead.
+        <div className="w-full h-auto m-auto shadow-xl mt-12 shadow-gray-400 rounded-xl flex items-center justify-center p-4 hover:scale-105 ease-in duration-300">
+          <Image src={AboutImg} className="rounded-xl" alt="/" />
+
+          {/* <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi,
+            dolor. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Sequi, dolor. Lorem ipsum dolor sit amet consectetur adipisicing
+            elit. Sequi, dolor. Lorem ipsum dolor sit amet consectetur
+            adipisicing elit. Sequi, dolor. Lorem ipsum dolor sit amet
+            consectetur adipisicing elit. Sequi, dolor.
           </p>
           <p>
-            At Studio, we’re more than just colleagues — we’re a family. This
-            means we pay very little and expect people to work late. We want our
-            employees to bring their whole selves to work. In return, we just
-            ask that they keep themselves there until at least 6:30pm.
-          </p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi,
+            dolor. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Sequi, dolor. Lorem ipsum dolor sit amet consectetur adipisicing
+            elit. Sequi, dolor. Lorem ipsum dolor sit amet consectetur
+            adipisicing elit. Sequi, dolor. Lorem ipsum dolor sit amet
+            consectetur adipisicing elit. Sequi, dolor.
+          </p> */}
         </div>
       </PageIntro>
       <Container className="mt-16">
