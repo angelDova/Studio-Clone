@@ -4,9 +4,9 @@ export const navigation = [
   {
     title: "Portfolio",
     links: [
-      { title: "Amazon Clone", href: "/portfolio/amazonclone" },
-      { title: "Bazar e-commerce", href: "/portfolio/bazar" },
-      { title: "Blog 101", href: "/portfolio/blog101" },
+      { title: "San Francisco Project", href: "/portfolio/SanFran" },
+      { title: "San Diego Project", href: "/portfolio/SanDiego" },
+      { title: "Los Angeles Project", href: "/portfolio/LosAngeles" },
       {
         title: (
           <>
