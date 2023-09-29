@@ -20,9 +20,9 @@ export const navigation = [
   {
     title: "Company",
     links: [
+      { title: "Portfolio", href: "/portfolio" },
       { title: "About", href: "/about" },
       { title: "Process", href: "/process" },
-      { title: "Blog", href: "/blog" },
       { title: "Contact", href: "/contact" },
     ],
   },
