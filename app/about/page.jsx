@@ -12,7 +12,7 @@ const AboutPage = () => {
     <>
       <PageIntro eyebrow="About" title="Strength in collaboration">
         <p>
-          Ariana Cordova is an LA-based creative that specializes in fashion
+          Ariana Cordova is an LA-based creator that specializes in fashion
           styling and photography. She is pursuing her Bachelor of Arts in
           Apparel Merchandising and Design at California State Polytechnic
           University, Pomona. Her projects reflect personal artistic themes
