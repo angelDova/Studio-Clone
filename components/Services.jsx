@@ -32,11 +32,6 @@ const Services = () => {
           </div>
           {/* List Item */}
           <List className="mt-16 lg:mt-0 lg:w-1/2 lg:min-w-[33rem] lg:pl-4">
-            <ListItem title="Creative Director">
-              We specialise in crafting beautiful, high quality marketing pages.
-              The rest of the website will be a shell that uses lorem ipsum
-              everywhere.
-            </ListItem>
             <ListItem title="Stylist">
               We have a team of skilled developers who are experts in the latest
               app frameworks, like Angular 1 and Google Web Toolkit.
@@ -45,6 +40,11 @@ const Services = () => {
               We are at the forefront of modern e-commerce development. Which
               mainly means adding your logo to the Shopify store template we’ve
               used for the past six years.
+            </ListItem>
+            <ListItem title="Buyer">
+              We specialise in crafting beautiful, high quality marketing pages.
+              The rest of the website will be a shell that uses lorem ipsum
+              everywhere.
             </ListItem>
             <ListItem title="Great Sister">
               At Studio we understand the importance of having a robust and

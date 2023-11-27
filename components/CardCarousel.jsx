@@ -156,20 +156,4 @@ const items = [
     title: "Untitled",
     description: "Experimenting with my own personal style.",
   },
-  {
-    id: 6,
-    url: "/images/AboutImg.jpg",
-    category: "Project 6",
-    title: "Stand up straight",
-    description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi, dolor.",
-  },
-  {
-    id: 7,
-    url: "/images/contact.jpg",
-    category: "Project 7",
-    title: "Sounds good",
-    description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi, dolor.",
-  },
 ];
