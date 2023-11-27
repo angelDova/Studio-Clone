@@ -4,9 +4,10 @@ export const navigation = [
   {
     title: "Portfolio",
     links: [
-      { title: "San Francisco Project", href: "/portfolio/SanFran" },
-      { title: "San Diego Project", href: "/portfolio/SanDiego" },
-      { title: "Los Angeles Project", href: "/portfolio/LosAngeles" },
+      { title: "Belladonna’s Playground ", href: "/portfolio/SanFran" },
+      { title: "La Lucha ", href: "/portfolio/SanDiego" },
+      { title: "USER827305883500", href: "/portfolio/LosAngeles" },
+      { title: "Untitled", href: "/portfolio/LosAngeles" },
       {
         title: (
           <>

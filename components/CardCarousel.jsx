@@ -123,41 +123,38 @@ const items = [
     id: 1,
     url: "/images/1.jpg",
     category: "Project 1",
-    title: "Just feels right",
+    title: "Belladonna’s Playground",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi, dolor.",
+      "Exploring the transitional period of girlhood into womanhood.",
   },
   {
     id: 2,
     url: "/images/2.jpg",
     category: "Project 2",
-    title: "Type in style",
-    description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi, dolor.",
+    title: "La Lucha",
+    description: "A feminine play on a traditionally masculine role.",
   },
   {
     id: 3,
     url: "/images/3.jpg",
     category: "Project 3",
-    title: "Looks like a win",
+    title: "USER827305883500 ",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi, dolor.",
+      "Takes inspiration from the experimental electronica wave of the 2010’s. ",
   },
   {
     id: 4,
     url: "/images/4.jpg",
     category: "Project 4",
-    title: "Back feels great",
-    description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi, dolor.",
+    title: "Untitled",
+    description: "Experimenting with my own personal style.",
   },
   {
     id: 5,
     url: "/images/5.jpg",
     category: "Project 5",
-    title: "It's lit",
-    description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi, dolor.",
+    title: "Untitled",
+    description: "Experimenting with my own personal style.",
   },
   {
     id: 6,
